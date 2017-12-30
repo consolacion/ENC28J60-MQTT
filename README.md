@@ -1,5 +1,5 @@
 # ENC28J60-MQTT
-Use of an ENC28J60 shield (or module0 with MQTT PubSub)
+Use of an ENC28J60 shield (or module) with MQTT PubSub
 
 
 The program uses the old ENC28J60 shield on a UNO or  an ENC28J60 Module on say an Arduino proMini to send MQTT messages.
