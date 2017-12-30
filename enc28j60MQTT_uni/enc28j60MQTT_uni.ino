@@ -2,7 +2,6 @@
 #include <UIPEthernet.h>
 #include "PubSubClient.h"
 #include "DHT.h"
-//kennelijk  geeft update van DHT sensor library boven 1.2.1 een fout
 #define CLIENT_ID       "UNO"
 #define PUBLISH_DELAY   20000
 #define DHTPIN        3
