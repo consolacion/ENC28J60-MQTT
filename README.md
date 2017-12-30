@@ -2,8 +2,8 @@
 Use of an ENC28J60 shield (or module) with MQTT PubSub
 
 
-The program uses the old ENC28J60 shield on a UNO or  an ENC28J60 Module on say an Arduino proMini to send MQTT messages.
-The ENC28J60 uses a lot of memory so little is left for programming. Therefore this program uses short strings and only publishes MQTT, it does not subscribe to any MQTT
+The program uses the old ENC28J60 shield on a UNO or an ENC28J60 Module on say an Arduino proMini to send MQTT messages.
+The ENC28J60 uses a lot of memory so little is left for programming. Therefore this program uses short strings and only publishes MQTT, it does not subscribe to any MQTT. The UIPEthernet library can be found here: https://github.com/UIPEthernet/UIPEthernet
 
 Some memory can be gained by setting the UIP_UDP_CONNS value in the UIPEthernet.h library to less than the default '4'
 Go to your /../sketchfolder/libraries/UIPEthernet-master/utility/uipethernet-conf.h  and open the uipethernet-conf.h file.
